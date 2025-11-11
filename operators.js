@@ -25,6 +25,6 @@ PS C:\Users\nehak\OneDrive\Desktop\Frontend\newjavascript\new--javascript> node 
 50
  */
 
-console.log(10 == "10"); //comparing value
+/* console.log(10 == "10"); //comparing value
 
-console.log(10 === "10"); //compare the values along with data types
+console.log(10 === "10"); //compare the values along with data types */
