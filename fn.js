@@ -34,3 +34,27 @@ sum(3, 4); */
 }
 let v = sum(3, 4);
 console.log(v); */
+
+//arrow function: helps in hadling this keyword,helps when v have one line output no need of return statement
+/* const abc = () => {
+  console.log("func");
+};
+abc(); */
+
+/* const sum = (a, b) => {
+  return a + b;
+};
+let value = sum(5, 10);
+console.log(value); */
+
+/* const sum = (a, b) => a + b;
+let value = sum(5, 10);
+console.log(value); */
+
+/* setTimeout(() => {
+  console.log("i have data");
+}, 7000); // to get output in delayed manner */
+
+setInterval(() => {
+  console.log("i have data");
+}, 7000); // prints value for every sec,used for asynchronous data
