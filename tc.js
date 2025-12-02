@@ -25,7 +25,7 @@ console.log((((2 == 2) == 2) == 2) == 0); */
 // let x;
 
 //v get referance error is called temperor dead zone its ntg but calling the variable befor initialization
-{
+/* {
   let array = [1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0];
   let tree = 1;
   let count = 0;
@@ -41,4 +41,6 @@ console.log((((2 == 2) == 2) == 2) == 0); */
     }
   }
   console.log(tree == count);
-}
+} */
+
+// console.log(+true);

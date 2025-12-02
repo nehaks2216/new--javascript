@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>EVENTS</title>
+    <script>
+      function abc() {
+        console.log("i am in change method"); //v have to change the input
+      }
+      function mnc() {
+        console.log("i am in blur method"); //come out of the input box
+      }
+      function efg() {
+        console.log("i am excecuting mouse over");
+      }
+      function xyz() {
+        console.log("i am moving out from button");
+      }
+      function ABC() {
+        console.log("KEY UP");
+      }
+      function DEF() {
+        console.log("KEY DOWN");
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" name="fname" onchange="abc()" onblur="mnc()" value="" />
+    <button onmouseover="efg()" onmouseout="xyz()">Submit</button>
+    <button onkeyup="ABC()">^</button>
+    <button onkeydown="DEF()">_</button>
+  </body>
+</html>
